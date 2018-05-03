@@ -1,0 +1,3 @@
+﻿  Building 'pciworm' with toolset 'WindowsUserModeDriver10.0' and the 'Universal' target platform.
+  Stamping Debug\pciworm.inf
+  Stamping [Version] section with DriverVer=04/30/2018,22.28.0.791
