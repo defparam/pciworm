@@ -40,6 +40,7 @@ pciwormEvtDevicePrepareHardware(
 		descriptor = WdfCmResourceListGetDescriptor(ResourcesTranslated, i);
 		if ((descriptor->Type == CmResourceTypeMemory) && (descriptor->u.Memory.Length == 0x1000))
 		{
+
 			deviceContext = DeviceGetContext(Device);
 			WdfDeviceMapIoSpace(Device,
 				descriptor->u.Memory.Start,
@@ -159,3 +160,5 @@ Return Value:
 
     return status;
 }
+
+

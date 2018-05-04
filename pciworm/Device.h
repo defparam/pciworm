@@ -46,4 +46,11 @@ pciwormCreateDevice(
     _Inout_ PWDFDEVICE_INIT DeviceInit
     );
 
+
+//
+// Device events
+//
+EVT_WDF_DEVICE_SELF_MANAGED_IO_INIT pciwormEvtDeviceSelfManagedIoStart;
+EVT_WDF_DEVICE_SELF_MANAGED_IO_SUSPEND pciwormEvtDeviceSelfManagedIoSuspend;
+
 EXTERN_C_END

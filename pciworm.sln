@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pciworm", "pciworm\pciworm.vcxproj", "{EC55C021-D650-4BAB-885C-B654825EC5F9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pciworm_app", "pciworm_app\pciworm_app.vcxproj", "{4EE977C7-8FE5-4EC2-80E2-5E369016096C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -41,8 +43,23 @@ Global
 		{EC55C021-D650-4BAB-885C-B654825EC5F9}.Release|x86.ActiveCfg = Release|Win32
 		{EC55C021-D650-4BAB-885C-B654825EC5F9}.Release|x86.Build.0 = Release|Win32
 		{EC55C021-D650-4BAB-885C-B654825EC5F9}.Release|x86.Deploy.0 = Release|Win32
+		{4EE977C7-8FE5-4EC2-80E2-5E369016096C}.Debug|ARM.ActiveCfg = Debug|Win32
+		{4EE977C7-8FE5-4EC2-80E2-5E369016096C}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{4EE977C7-8FE5-4EC2-80E2-5E369016096C}.Debug|x64.ActiveCfg = Debug|x64
+		{4EE977C7-8FE5-4EC2-80E2-5E369016096C}.Debug|x64.Build.0 = Debug|x64
+		{4EE977C7-8FE5-4EC2-80E2-5E369016096C}.Debug|x86.ActiveCfg = Debug|Win32
+		{4EE977C7-8FE5-4EC2-80E2-5E369016096C}.Debug|x86.Build.0 = Debug|Win32
+		{4EE977C7-8FE5-4EC2-80E2-5E369016096C}.Release|ARM.ActiveCfg = Release|Win32
+		{4EE977C7-8FE5-4EC2-80E2-5E369016096C}.Release|ARM64.ActiveCfg = Release|Win32
+		{4EE977C7-8FE5-4EC2-80E2-5E369016096C}.Release|x64.ActiveCfg = Release|x64
+		{4EE977C7-8FE5-4EC2-80E2-5E369016096C}.Release|x64.Build.0 = Release|x64
+		{4EE977C7-8FE5-4EC2-80E2-5E369016096C}.Release|x86.ActiveCfg = Release|Win32
+		{4EE977C7-8FE5-4EC2-80E2-5E369016096C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F24495B-5C6D-4336-A944-A643A6BEA854}
 	EndGlobalSection
 EndGlobal

@@ -61,8 +61,6 @@ Return Value:
     WPP_INIT_TRACING( DriverObject, RegistryPath );
 #endif
 
-	
-
     TraceEvents(TRACE_LEVEL_INFORMATION, TRACE_DRIVER, "%!FUNC! Entry");
 
     //

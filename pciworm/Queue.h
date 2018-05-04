@@ -23,6 +23,7 @@ EXTERN_C_START
 typedef struct _QUEUE_CONTEXT {
 
     ULONG PrivateDeviceData;  // just a placeholder
+	WDFDEVICE Device;
 
 } QUEUE_CONTEXT, *PQUEUE_CONTEXT;
 

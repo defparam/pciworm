@@ -22,6 +22,19 @@ Environment:
 #include "queue.h"
 #include "trace.h"
 
+#ifndef ASSERT
+#if DBG
+#define ASSERT( exp ) \
+    ((!(exp)) ? \
+        (KdPrint(( "\n*** Assertion failed: " #exp "\n\n")), \
+         DebugBreak(), \
+         FALSE) : \
+        TRUE)
+#else
+#define ASSERT( exp )
+#endif // DBG
+#endif // ASSERT
+
 EXTERN_C_START
 
 //

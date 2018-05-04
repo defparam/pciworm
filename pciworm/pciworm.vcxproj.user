@@ -2,7 +2,7 @@
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <UmdfVEnabled>true</UmdfVEnabled>
-    <TestCertificate>CN="WDKTestCert Evan,131696214858507767" | 79382906316617135162D3287F7BE96B06060CE6</TestCertificate>
+    <TestCertificate>CN="WDKTestCert Evan,131697952623009142" | 2D55961DA39D86318F4601BAE860BE5348FC064F</TestCertificate>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <UmdfVEnabled>true</UmdfVEnabled>
